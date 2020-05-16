@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8813279B-4DEC-48A4-9249-F7D9E7994523}</ProjectGuid>
+    <ProjectGuid>{13383C94-4FF4-4E52-AC63-947720F462A3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CreationalDesignPatterns</RootNamespace>
-    <AssemblyName>CreationalDesignPatterns</AssemblyName>
+    <RootNamespace>AbstractFactory</RootNamespace>
+    <AssemblyName>AbstractFactory</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete Products\CitiCreditConcreteProduct.cs" />
+    <Compile Include="ConcreteFactory\CitiCreditUnionFactory.cs" />
+    <Compile Include="ConcreteFactory\NationalCreditUnionFactory.cs" />
+    <Compile Include="Concrete Products\NationalCreditConcreteProduct.cs" />
+    <Compile Include="FactoryProvider\CreditUnionFactoryProvider.cs" />
+    <Compile Include="Interfaces\ICreditUnionFactory.cs" />
+    <Compile Include="Interfaces\ILoanAccount.cs" />
+    <Compile Include="Interfaces\ISavingsAccount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

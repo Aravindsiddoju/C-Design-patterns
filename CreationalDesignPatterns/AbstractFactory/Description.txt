@@ -1,0 +1,3 @@
+﻿Abstract Factory:
+Ultimately a factory for other factories.
+let's say there are different factory methods, now we need an abstraction for their implementation
