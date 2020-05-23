@@ -1,0 +1,3 @@
+﻿What is Decorator Pattern:
+The decorator pattern is used to add new functionality to an existing object without changing its structure.
+you can wrap a stream with a stream to get added functionality.
