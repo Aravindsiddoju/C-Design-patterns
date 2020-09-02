@@ -1,0 +1,1 @@
+﻿Defines a one to many dependency between the objects so that when one object changes the state, all it's dependencies are notified and updated automatically
