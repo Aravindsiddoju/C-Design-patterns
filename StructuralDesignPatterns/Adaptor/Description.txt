@@ -1,0 +1,5 @@
+﻿=> Converts the interface of a class to another interface that clients expect.
+
+=> Lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+=> Makes incompatible interfaces compatible by making it possible to have them work together.

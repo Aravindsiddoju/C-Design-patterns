@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{A2E2F463-75F0-4D90-A7D3-B0CBB45DBE5B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adaptor", "Adaptor", "{9E0D41EC-FB08-4C70-86C2-8725BFDDC3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adaptor", "Adaptor\Adaptor.csproj", "{C8B736DF-5E2C-49B8-AE3B-76E8119DA837}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{A2E2F463-75F0-4D90-A7D3-B0CBB45DBE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2E2F463-75F0-4D90-A7D3-B0CBB45DBE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2E2F463-75F0-4D90-A7D3-B0CBB45DBE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B736DF-5E2C-49B8-AE3B-76E8119DA837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B736DF-5E2C-49B8-AE3B-76E8119DA837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B736DF-5E2C-49B8-AE3B-76E8119DA837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B736DF-5E2C-49B8-AE3B-76E8119DA837}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8B736DF-5E2C-49B8-AE3B-76E8119DA837} = {9E0D41EC-FB08-4C70-86C2-8725BFDDC3C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDACE8CC-EED3-4EE4-BCBF-1B9BC73AABCE}
