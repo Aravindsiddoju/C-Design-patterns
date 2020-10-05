@@ -1,2 +1,2 @@
 ﻿Factory Method:
-Allow users to request the objects and have the correct type created behind the scenec and returned.
+Allow users to request the objects and have the correct type created behind the scene and returned.

@@ -1,0 +1,3 @@
+﻿Separates the construction of a complex object from it's representation so that the same construction process can create different representations.
+
+=> A pattern that let's you separate and resue the a specific process to build something. 
