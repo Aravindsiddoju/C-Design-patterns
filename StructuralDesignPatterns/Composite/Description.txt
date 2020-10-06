@@ -1,0 +1,6 @@
+﻿=> Compose objects into tree structures to represent part-whole hierarchies.
+
+=> Lets client treat individual objects and composition of objects uniformly.
+
+[Straight Talk]
+=> It is all about treating a group of objects and a single object as the same, while they can be different.
