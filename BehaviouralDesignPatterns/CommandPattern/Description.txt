@@ -1,0 +1,3 @@
+﻿>> Encapsulates a request as an object, There by letting you parameterize clients with different requests (queue or log requests) and support undoable operations.
+
+>> uses an object to store the required information to perform an action at any point in time.
