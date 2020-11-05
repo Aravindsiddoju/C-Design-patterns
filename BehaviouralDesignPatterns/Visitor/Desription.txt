@@ -1,0 +1,6 @@
+﻿>>
+Represents an operation to be peformed on the elements of an object structure.
+Vistors lets you define a new operation without changing the classes of the elements on which it operates.
+
+>>
+Lets you add and perform new functionality on the objects without changing its structure which might cause problems. 
