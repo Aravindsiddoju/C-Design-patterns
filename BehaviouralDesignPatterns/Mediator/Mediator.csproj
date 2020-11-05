@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4943F1FF-BCD7-431E-8197-E4179B77C1DE}</ProjectGuid>
+    <ProjectGuid>{EB28DF57-333A-4F49-9B8A-20F439246D1B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Interpreter</RootNamespace>
-    <AssemblyName>Interpreter</AssemblyName>
+    <RootNamespace>Mediator</RootNamespace>
+    <AssemblyName>Mediator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context\ContextClass.cs" />
-    <Compile Include="Expression\ExpressionClass.cs" />
-    <Compile Include="Expression\HundredExpression.cs" />
-    <Compile Include="Expression\OneExpression.cs" />
-    <Compile Include="Expression\TenExpression.cs" />
-    <Compile Include="Expression\ThousandExpression.cs" />
+    <Compile Include="Colleague\Participant.cs" />
+    <Compile Include="ConcreteColleague\Actor.cs" />
+    <Compile Include="ConcreteColleague\NonActor.cs" />
+    <Compile Include="ConcreteMediator\ChatRoom.cs" />
+    <Compile Include="Mediator\AbstractChatRoom.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,5 +57,6 @@
   <ItemGroup>
     <Content Include="Desription.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,5 @@
+﻿>>
+Given a langauge, defines a representation for it's grammar along with an interpreter that uses the representation to interpret the sentences in the language.
+
+>>
+A translator
