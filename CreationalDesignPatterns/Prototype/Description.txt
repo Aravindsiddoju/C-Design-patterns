@@ -1,0 +1,3 @@
+﻿>> Specifies the kinds of objects to create using a prototypical instance and creates new objects by copying this prototype.
+
+>> The goal of the prototype pattern is to create an object based on another object.
