@@ -1,0 +1,3 @@
+** Decouple an abstraction from it's implementation so that two can vary independently.
+
+** Used to separate an abstraction from it's implementation so both are modified independently.
