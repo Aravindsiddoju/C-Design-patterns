@@ -1,0 +1,8 @@
+﻿** Provides a unified interface to a set of interfaces in a subsystem.
+
+** Defines a higher level interface that makes the subsystem easier to use.
+
+
+** used to hide the complexities of a system and provides an interface to the client.
+
+
