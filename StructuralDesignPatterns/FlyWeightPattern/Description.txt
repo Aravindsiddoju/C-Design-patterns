@@ -1,0 +1,3 @@
+﻿** Uses sharing to support large number of fine-grainded objects efficiently.
+
+** Eliminates the need of creating a new object that already exist by sharing existing one. 
