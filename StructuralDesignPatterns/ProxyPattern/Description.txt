@@ -1,0 +1,3 @@
+﻿** Provides a surrogate or place holder for another object to control access to it.
+
+** Provides objects that reference objects for their functionality.
